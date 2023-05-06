@@ -1,0 +1,222 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Open+Sans:wght@300;400&display=swap'); */
+:root{
+    --colorTexto:#1e1e1e;
+    --colorTítulo:#28a745;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: #343a40;
+    color:#f8f9fa;
+}
+
+[href="https://www.google.com"]{
+    color: red;
+}
+
+[href="https://www.google.com"]:active{
+    color: lime;
+}
+[href="https://www.google.com"]:visited{
+    color: magenta;
+    font-weight: bold;
+}
+
+
+.boxPX{
+    background-color: orange;
+    width: 715px;
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    line-height:80px ;
+    height: 80px;
+}
+.boxP{
+    background-color: #28a745;
+    width: 50%;
+    height: 100px;
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.titulo{
+    color: rgb(255,255,255);
+    text-align:center;
+    line-height: 100px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.titulo::before{
+    content: '¿';
+    color: red;
+}
+.titulo::after{
+    content: '?';
+    color: red;
+}
+
+.subtitulo{
+    color: #007bff;
+    font-family:  'Poppins', sans-serif;;
+}
+
+.subtitulo2{
+    color: var(--colorTítulo);
+    font-family:  'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.parrafo{
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--colorTexto);
+    font-family: "Nunito", Arial;
+}
+
+
+.parrafo::first-line{
+    color: lime;
+}
+.parrafo::first-letter{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.header{
+    height: 100px;
+   /*  
+   background-color:crimson; 
+   background: linear-gradient(45deg, rgb(255,0,0), rgba(0,0,255,0.2));
+   */
+
+   background: #0F2027;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+.imageUser{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    display: none;
+}
+
+.article{
+    width: 350px;
+   /*  border-width: 2px;
+    border-style: solid;
+    border-color: gray; */
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin-bottom:25px ;
+    margin-left: 55px;
+    padding: 15px;
+}
+
+
+.article img{
+    width: 100%;
+} 
+
+
+.parallax{
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/banner6.jpg);
+/*     background-image: url(https://cdn.pixabay.com/photo/2023/04/26/16/01/lighthouse-7952718_1280.jpg); */
+}
+
+/*Table*/
+
+table{
+    margin-left: 250px;
+    border-collapse: collapse;
+
+    
+}
+
+td{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid red;
+    font-size: 35px;
+    color: var(--colorTítulo);
+}
+
+/*Card*/
+
+.card{
+    width: 850px;
+    padding: 30px;
+    float: left;
+}
+.flotado{
+    width: 80%;
+    margin: 30px auto;
+}
+.card img{
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+}
+.card img:hover{
+    border-radius:50% ;
+}
+
+
+.listaDerecha{
+    list-style-position: inside;
+}
+
+.lista{
+    margin-bottom: 15px;
+}
+
+.listaDerecha a{
+    text-decoration: none;
+    color: red;
+}
+
+.derecha{
+    float: right;
+    margin-top:50px;
+}
+
+.limpiar{
+    clear: both;
+}
+
+.lista:first-child{
+    background-color: cyan;
+}
+.lista:last-child{
+    background-color: pink;
+}
+
+.listaDerecha p:first-of-type{
+    color: #28a745;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.listaDerecha p:last-of-type{
+    color: #007bff;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}

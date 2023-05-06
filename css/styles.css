@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[href="https://facebook.com"]{
+    color: lime;
+    font-size: 20px;
+}
+
+#especial{ 
+    color: steelblue;
+    font-size: 30px;
+}
+
+#especial2{
+    color: chocolate;
+    font-size: 25px;
+}
+
+.subtitulo2{
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.29);
+    font-family: 'Comfortaa', cursive;
+}
+
+.parrafo{
+    color: blue;
+    line-height: 1.6;
+    text-align: justify;
+
+    font-family:'Open Sans', sans-serif;
+}
+
+.parrafo a{  /*10 + 1*/
+    color: blue;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+p{ /*1*/
+    color: orange;
+}
+
+#parrafo1 .link { /*100 + 10 = 110*/
+    color: #AA5AB3;  /*0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f*/
+    text-decoration: none;
+    text-align: center;
+    }
+
+p a{  /*1 + 1 = 2 */
+    color: chocolate;
+    font-size: 10px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    background-color: rgba(255,0,0,0.5);
+}
